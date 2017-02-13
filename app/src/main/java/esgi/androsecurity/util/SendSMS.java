@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 public class SendSMS {
 
-    public static void send(String number, String message,Context context){
+    public static void send(String number, String message ,Context context){
         if (number.equals("") || message.equals("")) {
             Toast.makeText(context,"Erreur",Toast.LENGTH_LONG).show();
         }
